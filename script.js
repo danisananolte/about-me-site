@@ -193,7 +193,7 @@ if (quizQuestionCard && quizQuestionText && quizAnswers) {
       description:
         "Soft, reliable, and everyone's favorite. You bring cozy energy into every room and people trust you because you are steady and kind.",
       image:
-        "file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/View_recent_photos-3443ebe5-1479-4a10-a2d7-99fc061d416c.png",
+        "./assets/View_recent_photos-3443ebe5-1479-4a10-a2d7-99fc061d416c.png",
       placeholder: "🍪 Cozy Vibes Photo",
     },
     stage: {
@@ -201,7 +201,7 @@ if (quizQuestionCard && quizQuestionText && quizAnswers) {
       description:
         "High energy and main character energy all day. You light up groups, bring bold confidence, and make moments memorable.",
       image:
-        "file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/View_recent_photos-36f434d5-fd25-4626-90d7-77ab2a7fb984.png",
+        "./assets/View_recent_photos-36f434d5-fd25-4626-90d7-77ab2a7fb984.png",
       placeholder: "🎭 Spotlight Photo",
     },
     camp: {
@@ -209,7 +209,7 @@ if (quizQuestionCard && quizQuestionText && quizAnswers) {
       description:
         "You love helping people and always have a game plan. You hype everyone up, keep teams moving, and make people feel seen.",
       image:
-        "file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/View_recent_photos-b435d5c7-19a2-49d3-8915-0bab81ec583d.png",
+        "./assets/View_recent_photos-b435d5c7-19a2-49d3-8915-0bab81ec583d.png",
       placeholder: "🏕️ Team Hype Photo",
     },
     gamer: {
@@ -217,8 +217,8 @@ if (quizQuestionCard && quizQuestionText && quizAnswers) {
       description:
         "Strategic, curious, and a little chronically online in the best way. You think in systems, solve problems fast, and probably have a favorite game queue ready.",
       images: [
-        "file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/View_recent_photos-81d8d0aa-f889-4d00-8f01-926e60056c7d.png",
-        "file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/View_recent_photos-65b0129e-3a0c-46bd-90a5-1880d73ede3d.png",
+        "./assets/View_recent_photos-81d8d0aa-f889-4d00-8f01-926e60056c7d.png",
+        "./assets/View_recent_photos-65b0129e-3a0c-46bd-90a5-1880d73ede3d.png",
       ],
       placeholder: "🎮 Strategy Mode Photo",
     },

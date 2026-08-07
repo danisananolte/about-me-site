@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>After-School Activities | Dani Nolte</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-left">
+        <a class="home-button" href="./index.html" aria-label="Home">
+          <img
+            aria-hidden="true"
+            class="home-icon-image"
+            src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/Screenshot_2026-08-05_at_2.24.48_PM-bab5723f-3947-4e2d-bda6-7be5d6b2d995.png"
+            alt=""
+          />
+          <span class="sr-only">Home</span>
+        </a>
+        <p class="nav-chat-title">[Dani Nolte has entered the chat]</p>
+      </div>
+      <div class="menu-wrap">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-menu" class="menu-panel" aria-label="Main navigation">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./experience.html">Experience</a>
+          <a href="./activities.html">After-School Activities</a>
+          <a href="./dani-quiz.html">Dani Quiz</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page detail-page">
+      <section class="detail-card">
+        <div class="text-bubble">
+          <h1>After-School Activities</h1>
+          <p>Click the arrows to flip through Dani's after-school activities.</p>
+        </div>
+
+        <section class="flashcard-carousel" aria-label="After-school flashcards">
+          <button
+            class="carousel-arrow"
+            type="button"
+            data-carousel-prev="activities-cards"
+            aria-label="Previous card"
+          >
+            ←
+          </button>
+
+          <article id="activities-cards" class="flashcard-track">
+            <section class="flashcard is-active">
+              <img
+                src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/View_recent_photos-3b880829-c5e5-4606-9135-fc5b1469a967.png"
+                alt="Coffee and creative planning setup"
+              />
+              <div class="flashcard-body">
+                <h2>Serving</h2>
+                <p>
+                  Sundays are an all day activity. Worship leader in the
+                  morning, music director and 11th grade youth leader in the
+                  evening. Giving back is a weekly rhythm.
+                </p>
+              </div>
+            </section>
+
+            <section class="flashcard hidden">
+              <img
+                src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/IMG_9678-080f7233-dbf2-423d-b640-e5f18fb3d53a.png"
+                alt="Friends hanging out outdoors"
+              />
+              <div class="flashcard-body">
+                <h2>Theater</h2>
+                <p>
+                  Everyone needs a little drama in their life. Dani prefers to
+                  keep hers within the realm of musical theater. She does at
+                  least 1 show a year and this year she got her husband and
+                  friends involved!
+                </p>
+              </div>
+            </section>
+
+            <section class="flashcard hidden">
+              <img
+                src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/View_recent_photos-7877bd67-8fe8-4097-9847-08400126c87d.png"
+                alt="Live music and event atmosphere"
+              />
+              <div class="flashcard-body">
+                <h2>Traveling</h2>
+                <p>
+                  Dani and her husband cannot stop booking trips! They went to
+                  Puerto Rico in June and are making their way to Japan in
+                  September with their besties.
+                </p>
+              </div>
+            </section>
+
+            <section class="flashcard hidden">
+              <div class="reading-photo-row">
+                <img
+                  src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/Screenshot_2026-08-05_at_1.16.15_PM-180f9036-c123-4d64-9cde-a90af85863c4.png"
+                  alt="The Six Habits of Highly Effective Sales Engineers book cover"
+                />
+                <img
+                  src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/Screenshot_2026-08-05_at_1.16.48_PM-3780cc18-c09b-442b-9534-bab94145bdcf.png"
+                  alt="The Miracle Morning book cover"
+                />
+              </div>
+              <div class="flashcard-body">
+                <h2>Reading</h2>
+                <p>
+                  Just finished reading Hal Elrod's Miracle Morning and Chris
+                  White's 6 Habits of Highly Effective Sales Engineers.
+                  <a
+                    class="email-suggestion-link"
+                    href="mailto:daninolte@salesforce.com?subject=Book%20Recommendation%20for%20Dani"
+                    data-gmail-compose="https://mail.google.com/mail/?view=cm&fs=1&to=daninolte@salesforce.com&su=Book%20Recommendation%20for%20Dani"
+                    >What should she read next?</a
+                  >
+                </p>
+              </div>
+            </section>
+          </article>
+
+          <button
+            class="carousel-arrow"
+            type="button"
+            data-carousel-next="activities-cards"
+            aria-label="Next card"
+          >
+            →
+          </button>
+        </section>
+
+        <p class="carousel-status">
+          Card <span id="activities-card-index">1</span> of
+          <span id="activities-card-total">4</span>
+        </p>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

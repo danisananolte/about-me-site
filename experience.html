@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience | Dani Nolte</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-left">
+        <a class="home-button" href="./index.html" aria-label="Home">
+          <img
+            aria-hidden="true"
+            class="home-icon-image"
+            src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/Screenshot_2026-08-05_at_2.24.48_PM-bab5723f-3947-4e2d-bda6-7be5d6b2d995.png"
+            alt=""
+          />
+          <span class="sr-only">Home</span>
+        </a>
+        <p class="nav-chat-title">[Dani Nolte has entered the chat]</p>
+      </div>
+      <div class="menu-wrap">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-menu" class="menu-panel" aria-label="Main navigation">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./experience.html">Experience</a>
+          <a href="./activities.html">After-School Activities</a>
+          <a href="./dani-quiz.html">Dani Quiz</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page detail-page">
+      <section class="detail-card">
+        <div class="text-bubble">
+          <h1>Dani's Experince</h1>
+          <p>The Professional Lore</p>
+          <div class="experience-button-row">
+            <button
+              class="story-toggle"
+              type="button"
+              data-toggle-target="experience-education"
+              data-toggle-group="experience-panels"
+              aria-expanded="false"
+            >
+              Education
+            </button>
+            <button
+              class="story-toggle"
+              type="button"
+              data-toggle-target="experience-internships"
+              data-toggle-group="experience-panels"
+              aria-expanded="false"
+            >
+              Internships
+            </button>
+            <button
+              class="story-toggle"
+              type="button"
+              data-toggle-target="experience-campfire"
+              data-toggle-group="experience-panels"
+              aria-expanded="false"
+            >
+              Campfire Coffee
+            </button>
+            <button
+              class="story-toggle"
+              type="button"
+              data-toggle-target="experience-salesforce"
+              data-toggle-group="experience-panels"
+              aria-expanded="false"
+            >
+              Salesforce
+            </button>
+          </div>
+
+          <section id="experience-education" class="experience-panel hidden">
+            <p>
+              Bachelor of Science in Organizational Leadership at Toccoa Falls
+              College (May 2023)
+            </p>
+            <p><strong>What is Organizational Leadership?</strong></p>
+            <ol>
+              <li>Learning how to start and run a business</li>
+              <li>
+                Learning how to be the kind of leader people want to work with
+              </li>
+            </ol>
+          </section>
+
+          <section id="experience-internships" class="experience-panel hidden">
+            <p>Pond &amp; Company - Human Resources Intern</p>
+            <p>Siemens Healthineers - Sales &amp; Marketing Intern</p>
+          </section>
+
+          <section id="experience-campfire" class="experience-panel hidden">
+            <img
+              class="experience-photo"
+              src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/dsc_6907-9f5c95b8-4c7c-484a-bbbc-30aac8d8d4f8.png"
+              alt="Campfire Coffee trailer"
+            />
+            <p>
+              In 2021, Dani wrote the business plan, bought the equipment and
+              launched Campfire Coffee, a mobile coffee business that had been a
+              dream of one of her mentors. She ran it until 2024 when they
+              opened their brick &amp; mortart location which her friend Darien now
+              manages.
+            </p>
+          </section>
+
+          <section id="experience-salesforce" class="experience-panel hidden">
+            <p>Feb 2024 - June 2025: SDR</p>
+            <p>June 2025 - Augst 2026: Account Specialist</p>
+            <p>August 2026 - Present: Associate Solution Engineer (YAY!)</p>
+          </section>
+        </div>
+
+        <div class="resume-block">
+          <h2>Resume</h2>
+          <iframe
+            class="resume-viewer"
+            src="file:///Users/daninolte/Downloads/DaniNolteResume2026.docx%20(1).pdf"
+            title="Dani Nolte Resume"
+          ></iframe>
+          <button
+            class="story-toggle acting-toggle"
+            type="button"
+            data-toggle-target="experience-acting-resume-wrap"
+            aria-expanded="false"
+          >
+            Dani's Acting Resume
+          </button>
+          <section id="experience-acting-resume-wrap" class="hidden">
+            <iframe
+              class="resume-viewer"
+              src="file:///Users/daninolte/Downloads/DaniNolteActingResume26.pdf"
+              title="Dani Nolte Acting Resume"
+            ></iframe>
+          </section>
+        </div>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

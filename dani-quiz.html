@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dani Quiz | Dani Nolte</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="nav-left">
+        <a class="home-button" href="./index.html" aria-label="Home">
+          <img
+            aria-hidden="true"
+            class="home-icon-image"
+            src="file:///Users/daninolte/.cursor/projects/Users-daninolte-about-me-site/assets/Screenshot_2026-08-05_at_2.24.48_PM-bab5723f-3947-4e2d-bda6-7be5d6b2d995.png"
+            alt=""
+          />
+          <span class="sr-only">Home</span>
+        </a>
+        <p class="nav-chat-title">[Dani Nolte has entered the chat]</p>
+      </div>
+      <div class="menu-wrap">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="site-menu" class="menu-panel" aria-label="Main navigation">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./experience.html">Experience</a>
+          <a href="./activities.html">After-School Activities</a>
+          <a href="./dani-quiz.html">Dani Quiz</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="page detail-page">
+      <section class="card quiz-shell">
+        <h1>Dani Quiz</h1>
+        <p>Find out which kind of Dani energy you have.</p>
+
+        <div class="quiz-progress-wrap">
+          <p id="quiz-progress-label" class="quiz-progress-label">Question 1 of 5</p>
+          <div class="quiz-progress-bar" aria-hidden="true">
+            <span id="quiz-progress-fill"></span>
+          </div>
+        </div>
+
+        <section id="quiz-question-card" class="quiz-question-card" aria-live="polite">
+          <h2 id="quiz-question-text"></h2>
+          <div id="quiz-answers" class="quiz-answers"></div>
+        </section>
+      </section>
+    </main>
+
+    <section id="quiz-result-overlay" class="quiz-result-overlay hidden" aria-live="polite">
+      <article class="quiz-result-card">
+        <div class="quiz-result-photo">📸 Photo Placeholder</div>
+        <h2 id="quiz-result-title"></h2>
+        <p id="quiz-result-description"></p>
+        <button id="quiz-retake" type="button" class="story-toggle">Retake Quiz</button>
+      </article>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
